@@ -1,0 +1,93 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 5px 10px #aaa;
+}
+
+header nav {
+  max-width: 1280px;
+  margin: auto;
+}
+
+#navigation ul {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+#footer-delimiter {
+  margin: 0;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #777;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.container {
+  max-width: 960px;
+  padding: 1rem 0;
+}
+
+#img {
+  padding-top: 80px;
+}
+
+#img img {
+  display: block;
+  max-width: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#img h1 {
+  text-align: center;
+}
+
+#projects video,
+#projects img {
+  width: 100%;
+}
+
+#experiences .row:not(:nth-of-type(1)) span:nth-of-type(1) {
+  font-weight: bold;
+}
+
+#experiences .row:not(:nth-of-type(1)) span:nth-of-type(3) {
+  color: #777;
+}
+
+#formation .row:not(:nth-of-type(1)) span:nth-of-type(1) {
+  font-weight: bold;
+}
+
+#competencies .row:nth-of-type(2) .col {
+  display: flex;
+  justify-content: space-between;
+}
+
+#competencies ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact {
+  text-align: center;
+  padding: 3rem 0;
+}
